@@ -12,3 +12,13 @@
 */
 
 Route::get('/user/{id}', 'UserController@show');
+
+Route::post('/user', 'UserController@add')->name('user');
+
+Route::get('/', function(){
+    return response()->json('No such user (3)');
+});
+
+Route::get('/user', function(){
+    return response()->json('No such user (3)');
+});
