@@ -15,7 +15,7 @@ Get and post routes were implemented.
 1.  **/user/{$id}** : This route was implemented to receive the id parameter and display the required page.
 
 	**parameter**
-> 	id: This is an integer field. It represents the id of the user we are viewing
+> 	- **id**: This is an integer field. It represents the id of the user we are viewing
 
 2. **/user** : This route is meant to capture instances were the user does not provide an id.
 
